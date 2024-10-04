@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+body {
+  background: linear-gradient(
+    to bottom left,
+    rgb(118, 0, 187),
+    rgb(45, 0, 247)
+  );
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 90vw;
+  max-width: 500px;
+}
+h1 {
+  color: #fff;
+  margin: 17px 0;
+}
+h1 span {
+  background-color: #f13f3f;
+  padding: 3px 13px;
+  border-radius: 10px;
+}
+textarea {
+  height: 190px;
+  width: 100%;
+  background-color: rgba(80, 33, 211, 0.671);
+  border-radius: 10px;
+  color: #fff;
+  resize: none;
+  padding: 10px;
+  font-size: 1rem;
+}
+textarea::placeholder {
+  color: #fff;
+}
+.row {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+select {
+  width: calc(100% - 87px);
+  border-radius: 7px;
+  background: transparent;
+  color: #fff;
+}
+select option {
+  color: #000;
+}
+button {
+  padding: 7px 20px;
+  font-size: 1rem;
+  background: #f13f3f;
+  color: #fff;
+  border-radius: 7px;
+  font-weight: 100;
+}
